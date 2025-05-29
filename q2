@@ -1,7 +1,7 @@
 //insert documents
 db.employees.insertOne({
   name: "John Smith",
-  email: "john@gmail.com",
+  email: "john12@gmail.com",
   department: "IT",
   salary: 1456,
   location: ["FL", "OH"],
