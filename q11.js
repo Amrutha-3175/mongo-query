@@ -27,6 +27,7 @@ db.employees.aggregate([
         }
     }
 ])
+{}
 // 3 rd query
 db.employees.aggregate([
   {
