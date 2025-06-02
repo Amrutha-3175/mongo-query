@@ -27,4 +27,5 @@ db.orders.aggregate([
       totalOrderValue: 1
     }
   }
+  {}
 ]);
