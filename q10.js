@@ -7,7 +7,7 @@ db.employees.aggregate([
     },
   },
 ]);
-
+{}
 db.employees.aggregate([
   {
     $project: {
