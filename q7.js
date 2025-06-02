@@ -6,7 +6,7 @@ db.employees.find({ salary: { $lt: 4000 } });
 db.employees.find({ salary: { $gte: 2456 } });
 db.employees.find({ salary: { $lte: 2456 } });
 db.employees.find({ department: { $in: ["HR", "IT"] } });
-db.employees.find({ department: { $nin: ["HR", "IT"] } });
+db.employees.find({ department: { $nin: ["HRR", "IT"] } });
 
 db.employees.find({
   $and: [{ salary: { $gt: 3000 } }, { department: { $eq: "IT" } }],
