@@ -35,10 +35,12 @@ db.createView("EmpOrders","orders",[
   },
   {
     $project: {
+      
       _id: 0,
       name: "$_id.name",
       email: "$_id.email",
       totalOrderValue: 1
+    
     }
   }
 ])
