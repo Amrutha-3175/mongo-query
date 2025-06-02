@@ -12,5 +12,5 @@ db.employees.aggregate([
 
 db.employees.aggregate([
   { $project: { name: 1, email: 1,salary:1 } },
-  { $addFields: { Bonus: { $multiply: ["$salary", 2] } } },
+  { $addFields: { Bonus: { $multiply: ["$salary", 3] } } },
 ]);
