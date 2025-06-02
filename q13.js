@@ -84,5 +84,6 @@ db.employees.aggregate([
       "Ord.orderValue": 1,
       "Ord.status": 1,
     },
+    {}
   },
 ]);
